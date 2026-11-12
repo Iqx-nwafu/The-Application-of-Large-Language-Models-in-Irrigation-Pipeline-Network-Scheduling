@@ -1,0 +1,4206 @@
+{
+ "seed": "20261111",
+ "note": "学生正式时延与可重复性：repro30 的 45 个状态 × 10 次，状态与教师 repro_ds（evalrun --seed 0）逐条相同；test 划分",
+ "jobs": [
+  {
+   "job_id": "sw_N00135_p13_s0",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 13
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s0",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p04_s0",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s0",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p22_s0",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 22
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s0",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p19_s0",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 19
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s0",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p08_s0",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 8
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s0",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p09_s0",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s0",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p11_s0",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 11
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s0",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p03_s0",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s0",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p08_s0",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 8
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s0",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p03_s0",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s0",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p21_s0",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 21
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s0",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p12_s0",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 12
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s0",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p23_s0",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 23
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s0",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p03_s0",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s0",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p14_s0",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 14
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s0",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p11_s1",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 11
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s1",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p25_s1",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 25
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s1",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p03_s1",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s1",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p26_s1",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 26
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s1",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p13_s1",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 13
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s1",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p22_s1",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 22
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s1",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p14_s1",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 14
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s1",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p16_s1",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 16
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s1",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p09_s1",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s1",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p11_s1",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 11
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s1",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p14_s1",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 14
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s1",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p10_s1",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 10
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s1",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p07_s1",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 7
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s1",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p17_s1",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 17
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s1",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p20_s1",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 20
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s1",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s1",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 1,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p03_s2",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s2",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p25_s2",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 25
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s2",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p22_s2",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 22
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s2",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p28_s2",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 28
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s2",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p27_s2",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 27
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s2",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p04_s2",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s2",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p04_s2",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s2",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p17_s2",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 17
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s2",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p24_s2",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 24
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s2",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p01_s2",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 1
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s2",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p03_s2",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s2",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p02_s2",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 2
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s2",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p04_s2",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s2",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p19_s2",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 19
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s2",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p08_s2",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 8
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s2",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s2",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 2,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p20_s3",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 20
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s3",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p10_s3",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 10
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s3",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p23_s3",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 23
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s3",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p22_s3",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 22
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s3",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p06_s3",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 6
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s3",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p04_s3",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s3",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p10_s3",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 10
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s3",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p02_s3",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 2
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s3",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p17_s3",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 17
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s3",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p05_s3",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 5
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s3",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p18_s3",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 18
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s3",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p00_s3",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s3",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p12_s3",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 12
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s3",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p11_s3",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 11
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s3",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p21_s3",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 21
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s3",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s3",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 3,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p20_s4",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 20
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s4",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p13_s4",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 13
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s4",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p12_s4",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 12
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s4",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p18_s4",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 18
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s4",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p16_s4",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 16
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s4",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p15_s4",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 15
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s4",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p08_s4",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 8
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s4",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p13_s4",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 13
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s4",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p04_s4",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s4",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p21_s4",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 21
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s4",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p09_s4",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s4",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p06_s4",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 6
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s4",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p05_s4",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 5
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s4",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p04_s4",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s4",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p19_s4",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 19
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s4",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s4",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 4,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p16_s5",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 16
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s5",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p26_s5",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 26
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s5",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p24_s5",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 24
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s5",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p27_s5",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 27
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s5",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p14_s5",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 14
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s5",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p03_s5",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s5",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p09_s5",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s5",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p26_s5",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 26
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s5",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p01_s5",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 1
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s5",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p11_s5",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 11
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s5",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p27_s5",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 27
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s5",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p07_s5",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 7
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s5",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p20_s5",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 20
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s5",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p07_s5",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 7
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s5",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p19_s5",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 19
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s5",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s5",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 5,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p03_s6",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s6",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p03_s6",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s6",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p08_s6",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 8
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s6",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p03_s6",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s6",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p08_s6",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 8
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s6",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p16_s6",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 16
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s6",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p27_s6",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 27
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s6",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p04_s6",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s6",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p27_s6",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 27
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s6",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p03_s6",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s6",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p20_s6",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 20
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s6",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p10_s6",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 10
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s6",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p19_s6",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 19
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s6",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p27_s6",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 27
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s6",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p13_s6",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 13
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s6",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s6",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 6,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p14_s7",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 14
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s7",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p09_s7",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s7",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p05_s7",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 5
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s7",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p12_s7",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 12
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s7",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p12_s7",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 12
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s7",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p07_s7",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 7
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s7",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p09_s7",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s7",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p02_s7",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 2
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s7",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p27_s7",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 27
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s7",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p14_s7",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 14
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s7",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p04_s7",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s7",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p06_s7",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 6
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s7",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p00_s7",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s7",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p13_s7",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 13
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s7",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p24_s7",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 24
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s7",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s7",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 7,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p18_s8",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 18
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s8",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p24_s8",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 24
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s8",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p09_s8",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s8",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p23_s8",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 23
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s8",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p02_s8",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 2
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s8",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p24_s8",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 24
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s8",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p21_s8",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 21
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s8",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p19_s8",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 19
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s8",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p01_s8",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 1
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s8",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p12_s8",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 12
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s8",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p07_s8",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 7
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s8",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p06_s8",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 6
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s8",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p05_s8",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 5
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s8",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p06_s8",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 6
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s8",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p28_s8",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 28
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s8",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s8",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 8,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00135_p16_s9",
+   "task": "switch",
+   "scenario": "N00135",
+   "variant": {
+    "pair": 16
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00135_s9",
+   "task": "rotation_plan",
+   "scenario": "N00135",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00057_p16_s9",
+   "task": "switch",
+   "scenario": "N00057",
+   "variant": {
+    "pair": 16
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00057_s9",
+   "task": "rotation_plan",
+   "scenario": "N00057",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00263_p23_s9",
+   "task": "switch",
+   "scenario": "N00263",
+   "variant": {
+    "pair": 23
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00263_s9",
+   "task": "rotation_plan",
+   "scenario": "N00263",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00362_p07_s9",
+   "task": "switch",
+   "scenario": "N00362",
+   "variant": {
+    "pair": 7
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00362_s9",
+   "task": "rotation_plan",
+   "scenario": "N00362",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00417_p15_s9",
+   "task": "switch",
+   "scenario": "N00417",
+   "variant": {
+    "pair": 15
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00417_s9",
+   "task": "rotation_plan",
+   "scenario": "N00417",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01132_p26_s9",
+   "task": "switch",
+   "scenario": "N01132",
+   "variant": {
+    "pair": 26
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01132_s9",
+   "task": "rotation_plan",
+   "scenario": "N01132",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00280_p09_s9",
+   "task": "switch",
+   "scenario": "N00280",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00280_s9",
+   "task": "rotation_plan",
+   "scenario": "N00280",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00519_p27_s9",
+   "task": "switch",
+   "scenario": "N00519",
+   "variant": {
+    "pair": 27
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00519_s9",
+   "task": "rotation_plan",
+   "scenario": "N00519",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00509_p04_s9",
+   "task": "switch",
+   "scenario": "N00509",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00509_s9",
+   "task": "rotation_plan",
+   "scenario": "N00509",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00497_p12_s9",
+   "task": "switch",
+   "scenario": "N00497",
+   "variant": {
+    "pair": 12
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00497_s9",
+   "task": "rotation_plan",
+   "scenario": "N00497",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00989_p21_s9",
+   "task": "switch",
+   "scenario": "N00989",
+   "variant": {
+    "pair": 21
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00989_s9",
+   "task": "rotation_plan",
+   "scenario": "N00989",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00300_p22_s9",
+   "task": "switch",
+   "scenario": "N00300",
+   "variant": {
+    "pair": 22
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00300_s9",
+   "task": "rotation_plan",
+   "scenario": "N00300",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N01145_p13_s9",
+   "task": "switch",
+   "scenario": "N01145",
+   "variant": {
+    "pair": 13
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N01145_s9",
+   "task": "rotation_plan",
+   "scenario": "N01145",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00382_p07_s9",
+   "task": "switch",
+   "scenario": "N00382",
+   "variant": {
+    "pair": 7
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00382_s9",
+   "task": "rotation_plan",
+   "scenario": "N00382",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "sw_N00253_p21_s9",
+   "task": "switch",
+   "scenario": "N00253",
+   "variant": {
+    "pair": 21
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "ro_N00253_s9",
+   "task": "rotation_plan",
+   "scenario": "N00253",
+   "variant": {},
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00197_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00197",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00133_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00133",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00252_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00252",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00205_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00205",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00497_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00497",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00502_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00502",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00174_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00174",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00879_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00879",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00278_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00278",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00964_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00964",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00429_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00429",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00460_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00460",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00967_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00967",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00975_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00975",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  },
+  {
+   "job_id": "fa_F00580_t0_s9",
+   "task": "fault_response",
+   "scenario": "F00580",
+   "variant": {
+    "t": 0
+   },
+   "sample": 9,
+   "seed": 20261111
+  }
+ ]
+}

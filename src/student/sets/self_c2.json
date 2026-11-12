@@ -1,0 +1,4570 @@
+{
+ "seed": 20261107,
+ "note": "方案 C 自采样第二批：make_selfsample_set --n-states 294 的第 201–294 个难状态（前 200 个即 self_c1）× 4 次；云上用 v1_s00295 Q8_0、温度 0.6、--abort-repeats 3 --no-ref 采样，同 self_c1",
+ "jobs": [
+  {
+   "job_id": "fa_F00941_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00941",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00941_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00941",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00941_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00941",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00941_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00941",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00910_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00910",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.1963
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00910_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00910",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.1963
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00910_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00910",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.1963
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00910_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00910",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.1963
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01049_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01049",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01049_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01049",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01049_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01049",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01049_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01049",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00000_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00000",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00000_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00000",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00000_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00000",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00000_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00000",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01192_t1_s10",
+   "task": "fault_response",
+   "scenario": "F01192",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0592
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01192_t1_s11",
+   "task": "fault_response",
+   "scenario": "F01192",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0592
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01192_t1_s12",
+   "task": "fault_response",
+   "scenario": "F01192",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0592
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01192_t1_s13",
+   "task": "fault_response",
+   "scenario": "F01192",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0592
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00438_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00438",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0013
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00438_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00438",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0013
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00438_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00438",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0013
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00438_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00438",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0013
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00247_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00247",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00247_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00247",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00247_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00247",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00247_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00247",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00266_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00266",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00266_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00266",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00266_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00266",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00266_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00266",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01159_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01159",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01159_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01159",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01159_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01159",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01159_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01159",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00748_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00748",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00748_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00748",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00748_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00748",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00748_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00748",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01118_t1_s10",
+   "task": "fault_response",
+   "scenario": "F01118",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.4997
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01118_t1_s11",
+   "task": "fault_response",
+   "scenario": "F01118",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.4997
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01118_t1_s12",
+   "task": "fault_response",
+   "scenario": "F01118",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.4997
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01118_t1_s13",
+   "task": "fault_response",
+   "scenario": "F01118",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.4997
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00420_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00420",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.9316,
+     "t_in_switch_s": 6.1
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00420_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00420",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.9316,
+     "t_in_switch_s": 6.1
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00420_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00420",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.9316,
+     "t_in_switch_s": 6.1
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00420_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00420",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.9316,
+     "t_in_switch_s": 6.1
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00849_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00849",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00849_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00849",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00849_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00849",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00849_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00849",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00453_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00453",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7517,
+     "t_in_switch_s": 5.9
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00453_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00453",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7517,
+     "t_in_switch_s": 5.9
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00453_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00453",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7517,
+     "t_in_switch_s": 5.9
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00453_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00453",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7517,
+     "t_in_switch_s": 5.9
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00173_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00173",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.1578,
+     "t_in_switch_s": 28.8
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00173_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00173",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.1578,
+     "t_in_switch_s": 28.8
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00173_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00173",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.1578,
+     "t_in_switch_s": 28.8
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00173_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00173",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.1578,
+     "t_in_switch_s": 28.8
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00718_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00718",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.9524,
+     "t_in_switch_s": 11.0
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00718_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00718",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.9524,
+     "t_in_switch_s": 11.0
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00718_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00718",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.9524,
+     "t_in_switch_s": 11.0
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00718_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00718",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.9524,
+     "t_in_switch_s": 11.0
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00247_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00247",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7598,
+     "t_in_switch_s": 40.3
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00247_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00247",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7598,
+     "t_in_switch_s": 40.3
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00247_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00247",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7598,
+     "t_in_switch_s": 40.3
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00247_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00247",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7598,
+     "t_in_switch_s": 40.3
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00864_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00864",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00864_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00864",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00864_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00864",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00864_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00864",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00751_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00751",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2393
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00751_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00751",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2393
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00751_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00751",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2393
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00751_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00751",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2393
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00224_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00224",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00224_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00224",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00224_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00224",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00224_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00224",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00265_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00265",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00265_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00265",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00265_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00265",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00265_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00265",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00000_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00000",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.6857
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00000_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00000",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.6857
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00000_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00000",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.6857
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00000_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00000",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.6857
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01071_t1_s10",
+   "task": "fault_response",
+   "scenario": "F01071",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2995
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01071_t1_s11",
+   "task": "fault_response",
+   "scenario": "F01071",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2995
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01071_t1_s12",
+   "task": "fault_response",
+   "scenario": "F01071",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2995
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01071_t1_s13",
+   "task": "fault_response",
+   "scenario": "F01071",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2995
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00295_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00295",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9475
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00295_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00295",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9475
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00295_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00295",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9475
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00295_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00295",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9475
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01142_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01142",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01142_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01142",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01142_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01142",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01142_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01142",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00298_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00298",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00298_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00298",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00298_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00298",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00298_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00298",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00011_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00011",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00011_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00011",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00011_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00011",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00011_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00011",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00973_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00973",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.8013
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00973_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00973",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.8013
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00973_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00973",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.8013
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00973_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00973",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.8013
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00476_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00476",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00476_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00476",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00476_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00476",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00476_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00476",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00604_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00604",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00604_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00604",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00604_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00604",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00604_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00604",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00757_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00757",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00757_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00757",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00757_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00757",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00757_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00757",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00377_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00377",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00377_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00377",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00377_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00377",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00377_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00377",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00769_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00769",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00769_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00769",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00769_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00769",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00769_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00769",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00313_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00313",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00313_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00313",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00313_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00313",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00313_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00313",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01128_t1_s10",
+   "task": "fault_response",
+   "scenario": "F01128",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2079
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01128_t1_s11",
+   "task": "fault_response",
+   "scenario": "F01128",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2079
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01128_t1_s12",
+   "task": "fault_response",
+   "scenario": "F01128",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2079
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01128_t1_s13",
+   "task": "fault_response",
+   "scenario": "F01128",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.2079
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01091_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01091",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01091_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01091",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01091_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01091",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01091_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01091",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00002_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00002",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.8582,
+     "t_in_switch_s": 4.1
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00002_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00002",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.8582,
+     "t_in_switch_s": 4.1
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00002_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00002",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.8582,
+     "t_in_switch_s": 4.1
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00002_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00002",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.8582,
+     "t_in_switch_s": 4.1
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00104_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00104",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00104_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00104",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00104_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00104",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00104_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00104",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00239_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00239",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00239_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00239",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00239_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00239",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00239_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00239",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00486_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00486",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00486_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00486",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00486_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00486",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00486_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00486",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01055_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01055",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01055_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01055",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01055_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01055",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01055_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01055",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00059_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00059",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7741,
+     "t_in_switch_s": 5.3
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00059_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00059",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7741,
+     "t_in_switch_s": 5.3
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00059_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00059",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7741,
+     "t_in_switch_s": 5.3
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00059_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00059",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7741,
+     "t_in_switch_s": 5.3
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00118_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00118",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00118_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00118",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00118_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00118",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00118_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00118",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00231_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00231",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.604,
+     "t_in_switch_s": 44.2
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00231_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00231",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.604,
+     "t_in_switch_s": 44.2
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00231_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00231",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.604,
+     "t_in_switch_s": 44.2
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00231_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00231",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.604,
+     "t_in_switch_s": 44.2
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00425_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00425",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00425_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00425",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00425_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00425",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00425_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00425",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00657_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00657",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00657_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00657",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00657_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00657",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00657_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00657",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01114_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01114",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01114_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01114",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01114_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01114",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01114_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01114",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00868_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00868",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9289
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00868_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00868",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9289
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00868_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00868",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9289
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00868_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00868",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9289
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01012_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01012",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01012_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01012",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01012_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01012",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01012_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01012",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00099_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00099",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00099_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00099",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00099_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00099",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00099_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00099",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00555_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00555",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.6087
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00555_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00555",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.6087
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00555_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00555",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.6087
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00555_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00555",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.6087
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00668_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00668",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00668_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00668",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00668_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00668",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00668_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00668",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01028_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01028",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01028_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01028",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01028_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01028",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01028_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01028",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01000_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01000",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01000_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01000",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01000_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01000",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01000_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01000",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00774_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00774",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00774_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00774",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00774_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00774",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00774_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00774",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00894_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00894",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00894_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00894",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00894_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00894",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00894_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00894",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00996_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00996",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00996_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00996",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00996_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00996",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00996_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00996",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00152_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00152",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7153
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00152_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00152",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7153
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00152_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00152",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7153
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00152_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00152",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7153
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00270_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00270",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00270_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00270",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00270_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00270",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00270_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00270",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00276_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00276",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00276_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00276",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00276_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00276",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00276_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00276",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00303_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00303",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7981
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00303_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00303",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7981
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00303_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00303",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7981
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00303_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00303",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7981
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00972_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00972",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00972_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00972",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00972_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00972",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00972_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00972",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00096_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00096",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00096_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00096",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00096_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00096",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00096_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00096",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01128_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01128",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01128_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01128",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01128_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01128",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01128_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01128",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00115_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00115",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00115_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00115",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00115_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00115",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00115_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00115",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00478_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00478",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00478_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00478",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00478_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00478",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00478_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00478",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00467_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00467",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00467_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00467",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00467_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00467",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00467_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00467",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01113_t1_s10",
+   "task": "fault_response",
+   "scenario": "F01113",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7344
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01113_t1_s11",
+   "task": "fault_response",
+   "scenario": "F01113",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7344
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01113_t1_s12",
+   "task": "fault_response",
+   "scenario": "F01113",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7344
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01113_t1_s13",
+   "task": "fault_response",
+   "scenario": "F01113",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.7344
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01107_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01107",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01107_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01107",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01107_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01107",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01107_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01107",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01143_t1_s10",
+   "task": "fault_response",
+   "scenario": "F01143",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0672
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01143_t1_s11",
+   "task": "fault_response",
+   "scenario": "F01143",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0672
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01143_t1_s12",
+   "task": "fault_response",
+   "scenario": "F01143",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0672
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01143_t1_s13",
+   "task": "fault_response",
+   "scenario": "F01143",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.0672
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00051_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00051",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00051_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00051",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00051_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00051",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00051_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00051",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00916_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00916",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.897
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00916_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00916",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.897
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00916_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00916",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.897
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00916_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00916",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.897
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00358_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00358",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00358_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00358",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00358_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00358",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00358_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00358",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00611_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00611",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00611_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00611",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00611_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00611",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00611_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00611",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00477_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00477",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00477_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00477",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00477_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00477",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00477_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00477",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00348_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00348",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9617
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00348_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00348",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9617
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00348_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00348",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9617
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00348_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00348",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9617
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00724_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00724",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00724_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00724",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00724_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00724",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00724_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00724",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00390_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00390",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7948,
+     "t_in_switch_s": 39.2
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00390_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00390",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7948,
+     "t_in_switch_s": 39.2
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00390_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00390",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7948,
+     "t_in_switch_s": 39.2
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00390_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00390",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.7948,
+     "t_in_switch_s": 39.2
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00590_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00590",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.6263,
+     "t_in_switch_s": 17.2
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00590_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00590",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.6263,
+     "t_in_switch_s": 17.2
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00590_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00590",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.6263,
+     "t_in_switch_s": 17.2
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00590_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00590",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.6263,
+     "t_in_switch_s": 17.2
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00154_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00154",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00154_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00154",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00154_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00154",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00154_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00154",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00847_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00847",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00847_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00847",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00847_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00847",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00847_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00847",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00423_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00423",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9884
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00423_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00423",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9884
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00423_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00423",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9884
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00423_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00423",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.9884
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00303_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00303",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00303_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00303",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00303_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00303",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00303_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00303",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00117_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00117",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.1591
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00117_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00117",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.1591
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00117_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00117",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.1591
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00117_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00117",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.1591
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01173_t0_s10",
+   "task": "fault_response",
+   "scenario": "F01173",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01173_t0_s11",
+   "task": "fault_response",
+   "scenario": "F01173",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01173_t0_s12",
+   "task": "fault_response",
+   "scenario": "F01173",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01173_t0_s13",
+   "task": "fault_response",
+   "scenario": "F01173",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00149_t1_s10",
+   "task": "fault_response",
+   "scenario": "F00149",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.8443
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00149_t1_s11",
+   "task": "fault_response",
+   "scenario": "F00149",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.8443
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00149_t1_s12",
+   "task": "fault_response",
+   "scenario": "F00149",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.8443
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00149_t1_s13",
+   "task": "fault_response",
+   "scenario": "F00149",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "running",
+     "cycle_frac": 0.8443
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00430_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00430",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00430_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00430",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00430_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00430",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00430_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00430",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00487_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00487",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00487_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00487",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00487_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00487",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00487_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00487",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00672_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00672",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00672_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00672",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00672_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00672",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00672_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00672",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00302_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00302",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00302_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00302",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00302_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00302",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00302_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00302",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00061_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00061",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00061_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00061",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00061_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00061",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00061_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00061",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00966_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00966",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00966_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00966",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00966_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00966",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00966_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00966",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00804_t0_s10",
+   "task": "fault_response",
+   "scenario": "F00804",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00804_t0_s11",
+   "task": "fault_response",
+   "scenario": "F00804",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00804_t0_s12",
+   "task": "fault_response",
+   "scenario": "F00804",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F00804_t0_s13",
+   "task": "fault_response",
+   "scenario": "F00804",
+   "variant": {
+    "t": 0,
+    "timing": null
+   },
+   "sample": 13,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01175_t1_s10",
+   "task": "fault_response",
+   "scenario": "F01175",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.8438,
+     "t_in_switch_s": 9.9
+    }
+   },
+   "sample": 10,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01175_t1_s11",
+   "task": "fault_response",
+   "scenario": "F01175",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.8438,
+     "t_in_switch_s": 9.9
+    }
+   },
+   "sample": 11,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01175_t1_s12",
+   "task": "fault_response",
+   "scenario": "F01175",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.8438,
+     "t_in_switch_s": 9.9
+    }
+   },
+   "sample": 12,
+   "seed": 20261029
+  },
+  {
+   "job_id": "fa_F01175_t1_s13",
+   "task": "fault_response",
+   "scenario": "F01175",
+   "variant": {
+    "t": 1,
+    "timing": {
+     "phase": "switching",
+     "switch_frac": 0.8438,
+     "t_in_switch_s": 9.9
+    }
+   },
+   "sample": 13,
+   "seed": 20261029
+  }
+ ]
+}

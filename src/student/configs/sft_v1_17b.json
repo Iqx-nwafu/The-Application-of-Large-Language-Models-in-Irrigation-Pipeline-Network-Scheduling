@@ -1,0 +1,27 @@
+{
+ "_note": "SFT v1 主线：Qwen3-1.7B bf16 LoRA，两批蒸馏合并的 5 千条可用。方案 A（作者 2026-11-05 定）：build_sft.py --max-steady 6 剔除故障里稳态仿真 >6 次的长循环轨迹；只训 1 轮（v0 第 2 轮在 val 上无增益），每半轮存 checkpoint。其余超参同 v0。",
+ "model": "models/Qwen3-1.7B",
+ "data": [
+  "data/train/train_32k_steady6.jsonl"
+ ],
+ "out_dir": "runs/sft_v1_17b",
+ "quant": "bf16",
+ "max_len": 32768,
+ "mem_cap_gb": 6.2,
+ "attn_head_chunks": 2,
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.0,
+  "target": "all-linear"
+ },
+ "epochs": 1,
+ "accum": 16,
+ "lr": 0.0002,
+ "warmup_frac": 0.03,
+ "min_lr_frac": 0.1,
+ "clip": 1.0,
+ "ckpt_per_epoch": 2,
+ "save_every": 10,
+ "seed": 20261103
+}

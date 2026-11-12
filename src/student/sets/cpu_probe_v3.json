@@ -1,0 +1,92 @@
+{
+ "seed": "20261103",
+ "note": "纯 CPU 探针：val_ckpt 的前 5 切换 / 2 分组 / 2 故障",
+ "jobs": [
+  {
+   "job_id": "sw_N01118_p04_s0",
+   "task": "switch",
+   "scenario": "N01118",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00976_p19_s0",
+   "task": "switch",
+   "scenario": "N00976",
+   "variant": {
+    "pair": 19
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00819_p06_s0",
+   "task": "switch",
+   "scenario": "N00819",
+   "variant": {
+    "pair": 6
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00374_p14_s0",
+   "task": "switch",
+   "scenario": "N00374",
+   "variant": {
+    "pair": 14
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00023_p01_s0",
+   "task": "switch",
+   "scenario": "N00023",
+   "variant": {
+    "pair": 1
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00863_s0",
+   "task": "rotation_plan",
+   "scenario": "N00863",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00850_s0",
+   "task": "rotation_plan",
+   "scenario": "N00850",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00958_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00958",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00798_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00798",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  }
+ ]
+}

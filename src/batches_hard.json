@@ -1,0 +1,97 @@
+{
+ "_note": "难瞬态子集批次（make_hard.py → sets/hard50.json：25 个切换 + 25 个爆管故障），检验三个工作流组件。单独成表，不进主实验 batches.json 与 analysis 进度口径；结果写 results/hard/。用法：pythonw launch.py <日志名> --config batches_hard.json <批次...>；同厂商批次在一个启动器里排队，要并行就分开起启动器。--safety：每轮提交方案和最终方案都做全量安全复核（rounds_safety / safety_final）。hard_base 先跑，算好 results/hard/opt_ref.json，免得四个 LLM 配置各自重复算 GA 参照。DeepSeek 仍受 results/ds_offpeak_only.txt 门禁（北京高峰不发起新场景）。",
+ "tasks": [
+  "switch",
+  "fault_response"
+ ],
+ "batches": [
+  {
+   "name": "hard_base",
+   "maker": [
+    "rules",
+    "optimizer"
+   ],
+   "set": "hard50",
+   "shards": 2,
+   "tag": "hard_base",
+   "local": true,
+   "outdir": "results/hard",
+   "safety": true,
+   "_why": "工程规则（τ_min 动作）与 NSGA-II/安全切换基线；证明基线超限，并预先算好故障场景的 GA 参照"
+  },
+  {
+   "name": "hard_ds",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "hard50",
+   "shards": 2,
+   "tag": "hard_ds",
+   "outdir": "results/hard",
+   "safety": true,
+   "_why": "完整工作流"
+  },
+  {
+   "name": "hard_ds_no_prompt",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "hard50",
+   "shards": 2,
+   "ablation": "no_prompt",
+   "tag": "hard_ds_no_prompt",
+   "outdir": "results/hard",
+   "safety": true,
+   "_why": "去约束提示（硬约束 + 瞬态经验规则两段）"
+  },
+  {
+   "name": "hard_ds_no_transient",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "hard50",
+   "shards": 2,
+   "ablation": "no_transient",
+   "tag": "hard_ds_no_transient",
+   "outdir": "results/hard",
+   "safety": true,
+   "_why": "去瞬态校核（反馈轮不做瞬态；模型仍可自己调 simulate_transient / check_constraints 工具）"
+  },
+  {
+   "name": "hard_ds_no_envelope",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "hard50",
+   "shards": 2,
+   "ablation": "no_envelope",
+   "tag": "hard_ds_no_envelope",
+   "outdir": "results/hard",
+   "safety": true,
+   "_why": "去安全包络（不给 screen_transient 工具）"
+  },
+  {
+   "name": "hard_ds_no_all",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "hard50",
+   "shards": 2,
+   "ablation": "no_all",
+   "tag": "hard_ds_no_all",
+   "outdir": "results/hard",
+   "safety": true,
+   "_why": "三个组件同时去掉，检验它们是否互为冗余（作者 2026-11-02 09:43 NZ 同意加跑）"
+  }
+ ]
+}
