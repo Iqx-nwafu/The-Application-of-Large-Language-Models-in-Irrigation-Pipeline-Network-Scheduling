@@ -96,7 +96,8 @@ python runbatch.py --config batches_hard.json hard_base hard_ds   # hard-transie
 Distillation (from `src/`; the lean tool set without `screen_transient`, the isolation-water-hammer convention for faults
 and at most 20 tool calls per round are the defaults of `distill_gen.py`). Switching and rotation-planning jobs ran on
 DeepSeek-V4-Flash first and the jobs whose trajectory failed filter rules R1-R8 (Table S3) were redone on V4-Pro; fault jobs ran on V4-Pro directly
-(in a 40-scenario pilot only 2 of 40 Flash fault trajectories passed the filter). `data/distill_index_teacher.jsonl.gz` lists all
+(in a pilot on 20 fault states, 2 of 40 Flash trajectories passed the filter, against 28 of 40 V4-Pro
+trajectories on the same states). `data/distill_index_teacher.jsonl.gz` lists all
 6,586 generated trajectories with model, filter verdict, tokens and cost.
 
 ```bash
@@ -125,7 +126,10 @@ python src/deploy/export_v3.py && python src/deploy/run_local_v3.py chain       
 ```
 
 `models/v2_merged_s00312` (the DPO base) is step 1 of `src/deploy/export_v3.py`. The DPO run used a 144-step cosine
-schedule and was stopped at step 85 (1.18 epochs), hence `--max-steps 85`.
+schedule and was stopped at step 85 (1.18 epochs), hence `--max-steps 85`. The deployed checkpoint was selected among
+the DPO checkpoints by a rule fixed before evaluation, on the 60 checkpoint-comparison scenarios of val250 (`val_ckpt`):
+most qualified fault scenarios, then most fault plans feasible before fallback, then most qualified scenarios overall.
+Re-judging with the time-window tolerance does not change the selection.
 
 `student/serve.py` and `deploy/run_local_v3.py` start `llama-server` through Windows WMI (as on the test laptop); on Linux
 start `llama-server -m <gguf> --port 8091 -c 32768 -np 1 -ngl 99 -fa on --jinja --seed 0` yourself and run
