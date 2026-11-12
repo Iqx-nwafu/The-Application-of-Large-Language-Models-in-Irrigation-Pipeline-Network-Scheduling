@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+# produced locally
+reproduce/out/
+src/results/
+src/envelope_lib.npz
+src/distill/raw*/
+src/distill/data*/
+src/distill/ledger*.jsonl
+src/distill/logs/
+models/
+runs/
+work/
+data/train/
+*.gguf
+*.safetensors

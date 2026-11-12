@@ -1,0 +1,30 @@
+{
+ "_note": "规模消融：Qwen3-8B bf16 LoRA（本机放不下，作者 11-09 加回），v1 教师数据，超参同 v1。写法：fast",
+ "model": "models/Qwen3-8B",
+ "data": [
+  "data/train/train_32k_steady6.jsonl"
+ ],
+ "out_dir": "runs/sft_q8b_v1data",
+ "quant": "bf16",
+ "mem_cap_gb": 44,
+ "attn_head_chunks": 1,
+ "offload": false,
+ "inner_ckpt": false,
+ "flash": true,
+ "max_len": 32768,
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.0,
+  "target": "all-linear"
+ },
+ "epochs": 1,
+ "accum": 16,
+ "lr": 0.0002,
+ "warmup_frac": 0.03,
+ "min_lr_frac": 0.1,
+ "clip": 1.0,
+ "ckpt_per_epoch": 2,
+ "save_every": 10,
+ "seed": 20261103
+}

@@ -1,0 +1,255 @@
+{
+ "_note": "正式实验批次（2000 元口径，作者 2026-10-27 认可）。场景集见 sets/（make_sets.py，前缀嵌套 gpt20 ⊂ repro30 ⊂ control40 ⊂ ablation100 ⊂ test）。每批 = 一组 evalrun 参数；shards = 单家并发路数，各路写 results/<tag>.s<i>of<k>.jsonl，都带 --skip-done，掉线后原命令重跑即续跑。不同厂商的批次可同时开；同一厂商的批次排队。latency_official = true 的批次串行单独跑（同厂商不得同时有其它批次），时延只以它为正式口径；其余批次的时延只作参考。tasks 里 switch / rotation_plan 用标称场景，fault_response 用故障场景。DeepSeek 尽量排在空闲时段（北京时间工作日 18:00–次日 9:00、12:00–14:00 与周末），费用约为高峰的一半。 批次可带 tasks / n 覆盖全局；cal_* 为校准批次（各 3 个故障场景，tag 与对应对照批次相同，所以校准结果直接计入对照集，不重跑）。 2026-10-28 作者 批准：DeepSeek 批次只在空闲时段发起新场景（results/ds_offpeak_only.txt=1，evalrun.wait_offpeak）；ds_repro 之后的 DeepSeek 批次可两批并行，ds_repro 仍单独串行。",
+ "tasks": [
+  "switch",
+  "rotation_plan",
+  "fault_response"
+ ],
+ "batches": [
+  {
+   "name": "cal_kimi",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "moonshot",
+   "model": "kimi-k3.1-pro",
+   "set": "control40",
+   "tasks": [
+    "fault_response"
+   ],
+   "n": 3,
+   "shards": 1,
+   "tag": "ctrl_kimi",
+   "_why": "校准：定费用倍数再定对照集大小"
+  },
+  {
+   "name": "cal_qwen",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "dashscope",
+   "model": "qwen3.8-max",
+   "set": "control40",
+   "tasks": [
+    "fault_response"
+   ],
+   "n": 3,
+   "shards": 1,
+   "tag": "ctrl_qwen_max",
+   "_why": "校准"
+  },
+  {
+   "name": "cal_gpt",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "openai",
+   "model": "gpt-6-astra",
+   "set": "gpt20",
+   "tasks": [
+    "fault_response"
+   ],
+   "n": 3,
+   "shards": 1,
+   "tag": "ref_gpt",
+   "_why": "校准"
+  },
+  {
+   "name": "base_test",
+   "maker": [
+    "rules",
+    "optimizer"
+   ],
+   "set": "test",
+   "shards": 1,
+   "tag": "main_base",
+   "local": true,
+   "_why": "GA 与工程规则全量配对（本地，GA 自带 22 进程，不再并行）"
+  },
+  {
+   "name": "base_ood",
+   "maker": [
+    "rules",
+    "optimizer"
+   ],
+   "set": "ood150",
+   "shards": 1,
+   "tag": "ood_base",
+   "local": true
+  },
+  {
+   "name": "ds_test",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "test",
+   "shards": 4,
+   "tag": "main_ds",
+   "_why": "E1/E2 主结果，368 场景；2026-10-28 11:4x 作者 批准改 4 路（README 原允许），分片间续跑互认"
+  },
+  {
+   "name": "ds_repro",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "repro30",
+   "shards": 1,
+   "repeats": 10,
+   "tag": "repro_ds",
+   "latency_official": true,
+   "_why": "30 场景 × 10 次：ICC、场景内变异系数、正式时延"
+  },
+  {
+   "name": "ds_direct",
+   "maker": [
+    "prompt_only"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "ablation100",
+   "shards": 4,
+   "tag": "abl_ds_direct",
+   "_why": "约束提示直出（Chen 等 2026 范式）"
+  },
+  {
+   "name": "ds_no_prompt",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "ablation100",
+   "shards": 4,
+   "ablation": "no_prompt",
+   "tag": "abl_ds_no_prompt"
+  },
+  {
+   "name": "ds_no_transient",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "ablation100",
+   "shards": 4,
+   "ablation": "no_transient",
+   "tag": "abl_ds_no_transient"
+  },
+  {
+   "name": "ds_no_envelope",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "ablation100",
+   "shards": 4,
+   "ablation": "no_envelope",
+   "tag": "abl_ds_no_envelope"
+  },
+  {
+   "name": "ds_ood",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-v4-pro",
+   "set": "ood150",
+   "shards": 4,
+   "tag": "ood_ds",
+   "_why": "E3 分布外 38 + 112"
+  },
+  {
+   "name": "flash_test",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "deepseek",
+   "model": "deepseek-chat",
+   "set": "test",
+   "shards": 4,
+   "tag": "main_flash",
+   "token_proxy": "deepseek-v4-pro",
+   "_why": "性价比组：只换便宜模型行不行（deepseek-chat 别名实际服务 Flash，见 served_model）"
+  },
+  {
+   "name": "kimi_ctrl",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "moonshot",
+   "model": "kimi-k3.1-pro",
+   "set": "control60",
+   "shards": 4,
+   "tag": "ctrl_kimi",
+   "_why": "国产旗舰对照、教师候选；作者 2026-10-28 定为 30+30（control60）；账号限额并发 40 / RPM 100 / TPM 300 万，可开到 8 路；429 overloaded 是服务端过载，teacher 退避 30/60/120 s"
+  },
+  {
+   "name": "kimi_k2_ctrl",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "moonshot",
+   "model": "kimi-k2.6",
+   "set": "control60",
+   "shards": 4,
+   "tag": "ctrl_kimi_k2",
+   "token_proxy": "kimi-k3.1-pro",
+   "_why": "性价比组 Kimi 低价档（作者 2026-10-28 15:5x 指定 K2，取通用型 kimi-k2.6）：与 kimi_ctrl 同 control60 配对；token 借 K3.1-Pro 估"
+  },
+  {
+   "name": "qwen_max_ctrl",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "dashscope",
+   "model": "qwen3.8-max",
+   "set": "control60",
+   "shards": 2,
+   "tag": "ctrl_qwen_max",
+   "_why": "国产旗舰对照、教师候选；分组单次回复可超 10 min，超时 30 min；作者 2026-10-29 10:3x 拍板补齐到 control60（前 40 场景沿用）"
+  },
+  {
+   "name": "qwen_plus_ctrl",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "dashscope",
+   "model": "qwen3.7-plus",
+   "set": "control60",
+   "shards": 2,
+   "tag": "ctrl_qwen_plus",
+   "token_proxy": "qwen3.8-max",
+   "_why": "性价比组；作者 2026-10-29 10:3x 拍板补齐到 control60（前 40 场景沿用）"
+  },
+  {
+   "name": "gpt_ref",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "openai",
+   "model": "gpt-6-astra",
+   "set": "control60",
+   "shards": 4,
+   "tag": "ref_gpt",
+   "_why": "国际对照；作者 2026-10-28 15:4x 确认纳入正式评比，场景集扩到 control60 与 Kimi 配对（gpt20 前缀沿用），4 路"
+  },
+  {
+   "name": "gpt_sol_ctrl",
+   "maker": [
+    "workflow"
+   ],
+   "provider": "openai",
+   "model": "gpt-6.1-sol",
+   "set": "control60",
+   "shards": 4,
+   "tag": "ctrl_gpt_sol",
+   "token_proxy": "gpt-6-astra",
+   "_why": "性价比组低价档（作者 2026-10-28 15:4x 加入）：与 gpt_ref / kimi_ctrl 同 control60 配对；token 借 astra 估"
+  }
+ ]
+}

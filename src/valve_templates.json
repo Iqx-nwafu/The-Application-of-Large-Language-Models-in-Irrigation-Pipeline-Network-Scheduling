@@ -1,0 +1,256 @@
+{
+  "version": "0.2",
+  "note": "阀门启闭模板库草稿。模型只输出 template_id 和 params；开度曲线 s(t) 由本文件生成，单位：秒、开度 0–1。开度到流量系数的映射见 valve_curve。。v0.2：参数只允许取 allowed 里的离散档（与瞬态包络库一一对应），模型给出的其他取值由安全兜底层投影到不快于请求值的最近档。",
+  "valve_curve": {
+    "type": "generic_gate",
+    "note": "通用闸阀曲线（TSNet 默认）。表中是相对 1/K（= K_全开/K(s)），相对流量系数 Cv_rel = sqrt(relative_inv_K)。后续换成实际电磁阀型号的 Kv 曲线",
+    "opening_pct": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "relative_inv_K": [
+      0,
+      0.0033,
+      0.0063,
+      0.0111,
+      0.02,
+      0.034,
+      0.0666,
+      0.125,
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  "valve_classes": {
+    "branch": {
+      "dn_mm": 80,
+      "count": 120,
+      "ids": "V{x}{k}{L|R}, x=0..9, k=1..6",
+      "tau_min_s": 5,
+      "tau_max_s": 60
+    },
+    "submain": {
+      "dn_mm": 150,
+      "count": 10,
+      "ids": "VS{x}, x=0..9",
+      "tau_min_s": 10,
+      "tau_max_s": 120
+    }
+  },
+  "templates": [
+    {
+      "id": "close_linear",
+      "op": "close",
+      "params": {
+        "duration_s": {
+          "min": 5,
+          "max": 60,
+          "step": 1
+        }
+      },
+      "curve": "s(t) = 1 - t/duration,  0<=t<=duration",
+      "allowed": {
+        "branch": [
+          {
+            "duration_s": 5
+          },
+          {
+            "duration_s": 10
+          },
+          {
+            "duration_s": 20
+          },
+          {
+            "duration_s": 40
+          }
+        ],
+        "sub": [
+          {
+            "duration_s": 10
+          },
+          {
+            "duration_s": 20
+          },
+          {
+            "duration_s": 40
+          },
+          {
+            "duration_s": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "close_two_stage",
+      "op": "close",
+      "params": {
+        "duration_s": {
+          "min": 8,
+          "max": 90,
+          "step": 1
+        },
+        "break_time_s": {
+          "min": 2,
+          "max": 30,
+          "step": 1,
+          "constraint": "break_time < duration"
+        },
+        "break_opening": {
+          "min": 0.1,
+          "max": 0.5,
+          "step": 0.05
+        }
+      },
+      "curve": "第一段 0..break_time 从 1 线性关到 break_opening；第二段 break_time..duration 线性关到 0。先快后慢，大部分流量在第二段慢慢切掉",
+      "default": {
+        "duration_s": 15,
+        "break_time_s": 3,
+        "break_opening": 0.3
+      },
+      "allowed": {
+        "branch": [
+          {
+            "duration_s": 8,
+            "break_time_s": 2,
+            "break_opening": 0.3
+          },
+          {
+            "duration_s": 15,
+            "break_time_s": 3,
+            "break_opening": 0.3
+          },
+          {
+            "duration_s": 20,
+            "break_time_s": 5,
+            "break_opening": 0.3
+          },
+          {
+            "duration_s": 30,
+            "break_time_s": 5,
+            "break_opening": 0.2
+          },
+          {
+            "duration_s": 40,
+            "break_time_s": 10,
+            "break_opening": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "open_linear",
+      "op": "open",
+      "params": {
+        "duration_s": {
+          "min": 5,
+          "max": 60,
+          "step": 1
+        }
+      },
+      "curve": "s(t) = t/duration",
+      "allowed": {
+        "branch": [
+          {
+            "duration_s": 5
+          },
+          {
+            "duration_s": 10
+          },
+          {
+            "duration_s": 20
+          },
+          {
+            "duration_s": 40
+          }
+        ],
+        "sub": [
+          {
+            "duration_s": 10
+          },
+          {
+            "duration_s": 20
+          },
+          {
+            "duration_s": 40
+          },
+          {
+            "duration_s": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": "open_two_stage",
+      "op": "open",
+      "params": {
+        "duration_s": {
+          "min": 8,
+          "max": 90,
+          "step": 1
+        },
+        "break_time_s": {
+          "min": 2,
+          "max": 30,
+          "step": 1
+        },
+        "break_opening": {
+          "min": 0.1,
+          "max": 0.5,
+          "step": 0.05
+        }
+      },
+      "curve": "第一段慢开到 break_opening（先充压），第二段开到 1",
+      "default": {
+        "duration_s": 15,
+        "break_time_s": 8,
+        "break_opening": 0.2
+      },
+      "allowed": {
+        "branch": [
+          {
+            "duration_s": 10,
+            "break_time_s": 5,
+            "break_opening": 0.2
+          },
+          {
+            "duration_s": 15,
+            "break_time_s": 8,
+            "break_opening": 0.2
+          },
+          {
+            "duration_s": 30,
+            "break_time_s": 10,
+            "break_opening": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "instant",
+      "op": "close|open",
+      "params": {
+        "duration_s": {
+          "fixed": 1
+        }
+      },
+      "curve": "1 s 线性，近似电磁阀直接动作；只用于基线对照和故障紧急隔离，不允许模型在常规切换中选用"
+    }
+  ],
+  "heuristics": [
+    "先开后关：新组阀门开启起始时刻早于旧组阀门关闭起始时刻，建议错开 >= 1 个分干管来回波时间 2L/a（约 4 s）",
+    "同一分干管上的阀门不同时动作，相邻阀门起始时刻错开 >= 2 s",
+    "常规切换优先 close_two_stage；只有稳态压力裕量大时才用 close_linear",
+    "分干管末端（k=5,6）的阀门比首端关得更慢，duration 加 50%",
+    "一次切换中同时在动的阀门数不超过 8（关 4 开 4）"
+  ]
+}

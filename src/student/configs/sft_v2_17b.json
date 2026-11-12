@@ -1,0 +1,32 @@
+{
+ "_note": "SFT v2（方案 C，拒绝采样微调）：v1 训练集（教师轨迹，方案 A 筛后 4,717 条）+ 学生自采样两批（self_c1 本机 200 状态、self_c2 云上 94 个难状态，同 to_sft R1–R8 + build_sft --max-steady 6、每状态 ≤2 条）的故障轨迹，从底座重训；超参由 sft_v1_17b.json 原样继承。写法：fast",
+ "model": "models/Qwen3-1.7B",
+ "data": [
+  "data/train/train_32k_steady6.jsonl",
+  "data/train/train_self_c1.jsonl",
+  "data/train/train_self_c2.jsonl"
+ ],
+ "out_dir": "runs/sft_v2_17b",
+ "quant": "bf16",
+ "mem_cap_gb": 24,
+ "attn_head_chunks": 1,
+ "offload": false,
+ "inner_ckpt": false,
+ "flash": true,
+ "max_len": 32768,
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.0,
+  "target": "all-linear"
+ },
+ "epochs": 1,
+ "accum": 16,
+ "lr": 0.0002,
+ "warmup_frac": 0.03,
+ "min_lr_frac": 0.1,
+ "clip": 1.0,
+ "ckpt_per_epoch": 2,
+ "save_every": 10,
+ "seed": 20261103
+}

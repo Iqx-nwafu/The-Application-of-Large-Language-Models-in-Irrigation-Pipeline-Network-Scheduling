@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IrrigationDecision",
+  "description": "决策模型的结构化输出（草稿 v0.1）。三种决策类型共用一个顶层结构，与工具接口 simulate_steady / screen_transient / simulate_transient / check_constraints 的输入一致。",
+  "type": "object",
+  "required": ["schema_version", "scenario_id", "decision_type", "reasoning"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "scenario_id": {"type": "string"},
+    "decision_type": {"enum": ["rotation_plan", "switch", "fault_response"]},
+    "reasoning": {"type": "string", "maxLength": 1500, "description": "先推理后决策；蒸馏时作为教师轨迹保留"},
+
+    "rotation_plan": {
+      "type": "object",
+      "description": "轮灌划分 x_ik、组序 π、灌水时长 T_k",
+      "required": ["groups", "order"],
+      "properties": {
+        "groups": {
+          "type": "array", "minItems": 1, "maxItems": 60,
+          "items": {
+            "type": "object", "required": ["group_id", "valves", "duration_h"],
+            "properties": {
+              "group_id": {"type": "integer", "minimum": 1},
+              "valves": {"type": "array", "minItems": 1, "maxItems": 8,
+                         "items": {"type": "string", "pattern": "^V[0-9][1-6][LR]$"}, "uniqueItems": true},
+              "duration_h": {"type": "number", "minimum": 0.5, "maximum": 8}
+            }
+          }
+        },
+        "order": {"type": "array", "items": {"type": "integer"}, "description": "group_id 的执行顺序，每个 id 恰好一次"}
+      }
+    },
+
+    "switch": {
+      "type": "object",
+      "description": "一次组间切换：每个阀门一个动作 (s_i, θ_i)，θ_i 只能取模板库 valve_templates.json 里的模板和参数",
+      "required": ["from_group", "to_group", "actions"],
+      "properties": {
+        "from_group": {"type": "integer"},
+        "to_group": {"type": "integer"},
+        "actions": {
+          "type": "array", "minItems": 1, "maxItems": 16,
+          "items": {
+            "type": "object", "required": ["valve", "op", "t_start_s", "template", "params"],
+            "properties": {
+              "valve": {"type": "string", "pattern": "^V(S?[0-9]|[0-9][1-6][LR])$"},
+              "op": {"enum": ["open", "close"]},
+              "t_start_s": {"type": "number", "minimum": 0, "maximum": 300},
+              "template": {"enum": ["close_linear", "close_two_stage", "open_linear", "open_two_stage", "instant"]},
+              "params": {
+                "type": "object",
+                "properties": {
+                  "duration_s": {"type": "number", "minimum": 1, "maximum": 120},
+                  "break_time_s": {"type": "number", "minimum": 1, "maximum": 60},
+                  "break_opening": {"type": "number", "minimum": 0.05, "maximum": 0.95}
+                },
+                "required": ["duration_s"]
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "fault_response": {
+      "type": "object",
+      "description": "故障处置：隔离阀集合 I，被隔离子树内的支管退出所有组，重排剩余计划",
+      "required": ["fault_id", "isolate_valves", "isolation_actions", "remaining_plan"],
+      "properties": {
+        "fault_id": {"type": "string"},
+        "isolate_valves": {"type": "array", "items": {"type": "string"}},
+        "isolation_actions": {"$ref": "#/properties/switch/properties/actions"},
+        "removed_valves": {"type": "array", "items": {"type": "string"}, "description": "因隔离而不能灌的支管阀"},
+        "remaining_plan": {"$ref": "#/properties/rotation_plan"}
+      }
+    }
+  },
+
+  "allOf": [
+    {"if": {"properties": {"decision_type": {"const": "rotation_plan"}}}, "then": {"required": ["rotation_plan"]}},
+    {"if": {"properties": {"decision_type": {"const": "switch"}}}, "then": {"required": ["switch"]}},
+    {"if": {"properties": {"decision_type": {"const": "fault_response"}}}, "then": {"required": ["fault_response"]}}
+  ]
+}

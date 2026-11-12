@@ -1,0 +1,31 @@
+{
+ "_note": "DPO 变体 a：纯轨迹级 DPO（ETO 口径，β=0.1），底座与参考模型 = v2 最优 checkpoint 合并权重；数据 = 教师对（pro 对 flash，≤32k）+ 本机自采样对 self_c1 + 云上补采对 self_c2",
+ "out_dir": "runs/dpo_a",
+ "nll_coef": 0.0,
+ "model": "models/v2_merged_s00312",
+ "data": [
+  "data/train/dpo_pairs.pt"
+ ],
+ "quant": "bf16",
+ "max_len": 32768,
+ "mem_cap_gb": 24,
+ "flash": true,
+ "offload": false,
+ "inner_ckpt": false,
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.0,
+  "target": "all-linear"
+ },
+ "epochs": 2,
+ "accum": 8,
+ "lr": 5e-05,
+ "warmup_frac": 0.1,
+ "min_lr_frac": 0.1,
+ "clip": 1.0,
+ "beta": 0.1,
+ "ckpt_per_epoch": 1,
+ "save_every": 5,
+ "seed": 20261109
+}

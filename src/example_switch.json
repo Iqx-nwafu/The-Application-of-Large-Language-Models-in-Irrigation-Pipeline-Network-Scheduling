@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1",
+  "scenario_id": "base_switch_g01_to_g02",
+  "decision_type": "switch",
+  "reasoning": "组 1 (J01+J02) 切到组 2 (J03+J04)，同一分干管 S0 上。先开后关：组 2 四个阀 t=0 起线性开 10 s；组 2 流量建立后，组 1 四个阀从 t=6 s 起两阶段关闭，前 3 s 关到 30% 开度，再 12 s 关完。同一分干管上的四个阀起始时刻各错开 2 s。",
+  "switch": {
+    "from_group": 1,
+    "to_group": 2,
+    "actions": [
+      {"valve": "V03L", "op": "open",  "t_start_s": 0, "template": "open_linear", "params": {"duration_s": 10}},
+      {"valve": "V03R", "op": "open",  "t_start_s": 2, "template": "open_linear", "params": {"duration_s": 10}},
+      {"valve": "V04L", "op": "open",  "t_start_s": 4, "template": "open_linear", "params": {"duration_s": 10}},
+      {"valve": "V04R", "op": "open",  "t_start_s": 6, "template": "open_linear", "params": {"duration_s": 10}},
+      {"valve": "V01L", "op": "close", "t_start_s": 8,  "template": "close_two_stage", "params": {"duration_s": 15, "break_time_s": 3, "break_opening": 0.3}},
+      {"valve": "V01R", "op": "close", "t_start_s": 10, "template": "close_two_stage", "params": {"duration_s": 15, "break_time_s": 3, "break_opening": 0.3}},
+      {"valve": "V02L", "op": "close", "t_start_s": 12, "template": "close_two_stage", "params": {"duration_s": 15, "break_time_s": 3, "break_opening": 0.3}},
+      {"valve": "V02R", "op": "close", "t_start_s": 14, "template": "close_two_stage", "params": {"duration_s": 15, "break_time_s": 3, "break_opening": 0.3}}
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+scenario,region,p_max,node_max,p_min,node_min,cpu_s
+fast,main,30.75,J0,20.26,J0,186.89
+fast,submain_J0,42.33,J02,-11.04,J05,186.89
+fast,branch_G1,23.15,B01L,-6.50,B02L,186.89
+fast,branch_G2,24.50,B04L,-1.99,B04L,186.89
+linear,main,30.29,J9,21.23,J9,183.41
+linear,submain_J0,40.05,J02,-6.98,J06,183.41
+linear,branch_G1,23.15,B01L,-6.38,B02L,183.41
+linear,branch_G2,24.50,B04L,-0.89,B04L,183.41
+twostage,main,28.86,J9,22.12,J7,182.53
+twostage,submain_J0,32.24,J02,-6.98,J06,182.53
+twostage,branch_G1,23.15,B01L,-6.02,B01L,182.53
+twostage,branch_G2,24.50,B04L,-0.89,B04L,182.53

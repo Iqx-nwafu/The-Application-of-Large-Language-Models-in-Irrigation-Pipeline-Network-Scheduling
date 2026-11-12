@@ -1,0 +1,29 @@
+{
+ "_note": "最优模型判定阈值，作者 2026-10-28 定（预实验依据见 README「A10 预实验」节）；写入后第一轮实验不再改。",
+ "p0": 0.95,
+ "p0_def": "兜底前可行率，模型 × 测试集全体任务，附 Wilson 95% 区间",
+ "r0": 0.8,
+ "r0_tasks": [
+  "switch",
+  "fault_response"
+ ],
+ "r0_windows_s": {
+  "switch": 120,
+  "fault_response": 300
+ },
+ "r0_def": "实时达标率，只算切换与故障处置；正式口径 = repro30 子集串行单测，时延扣除 latency.retry_wait_s",
+ "rotation_plan_window_s": 600,
+ "rotation_plan_note": "分组不进 r0，600 s 窗口只作报告",
+ "delta": 0.02,
+ "delta_tasks": [
+  "rotation_plan",
+  "fault_response"
+ ],
+ "delta_sensitivity": [
+  0.01,
+  0.05
+ ],
+ "delta_def": "与同批场景中最好模型的 C* 配对差距的中位数（C*_best − C*）；切换任务只报动作时长不进筛选",
+ "cost_rule": "通过门槛与筛选的模型按单次决策费用中位数（空闲时段价）取最低；±20% 内比首个可行方案时延",
+ "fixed_on": "2026-10-28"
+}

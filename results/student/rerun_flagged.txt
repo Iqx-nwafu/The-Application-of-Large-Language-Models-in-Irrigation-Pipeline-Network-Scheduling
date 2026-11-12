@@ -1,0 +1,105 @@
+# 时延受外部显卡争用污染、需在 chain 结束后重跑的记录（判据：短上下文调用解码 < 85 tok/s 或预填充 < 1500 tok/s，并与 mon\repro_smi.csv 同时段显存 / 占用异常对得上）
+# 做法：chain 结束后把这些 json 移到 results/student/replaced_contention/<tag>（发布时按 tag 打包），再 launch 一次 chain（新进程无缓存，只补缺的记录），论文写明剔除判据与条数。
+# 11-11 16:05–16:15 NZDT 一次争用（显存 5931 → 6583 MiB 波动，预填充掉到 170–900 tok/s）
+v3_s00085_q8_repro/rotation_plan/ro_N01145_s1.json
+v3_s00085_q8_repro/switch/sw_N01145_p07_s1.json
+# 11-11 20:37–20:44 NZDT 轻度争用（显存 6021–6123 MiB 波动，短上下文首轮解码掉到 56–57 tok/s）
+v3_s00085_q8_repro/switch/sw_N00497_p05_s3.json
+v3_s00085_q8_repro/fault_response/fa_F00429_t0_s3.json
+# 11-12 10:35–10:39 NZDT 轻度争用（显存 5967–6136 MiB 波动、非评测时段 GPU 占用约 70%），该条三次调用解码 78–79 tok/s（同场景其余 9 次约 110）
+v3_s00085_q8_repro/switch/sw_N00263_p23_s9.json
+# 11-12 14:02–15:44 NZDT prec_q8 整段争用 / 限速：nvidia-smi 显示功耗 18–54 W（平时约 105 W）、P5、显存 +250 MiB；首轮解码 61–79 tok/s（之前之后约 106–115），15:10–15:31 低到 14–20；整段 29 条全部重跑
+v3_s00085_q8_kvq8/switch/sw_N00688_p10_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00855_t0_s0.json
+v3_s00085_q8_kvq8/rotation_plan/ro_N00808_s0.json
+v3_s00085_q8_kvq8/switch/sw_N00609_p13_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00098_t0_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F01078_t0_s0.json
+v3_s00085_q8_kvq8/switch/sw_N00401_p11_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F01170_t0_s0.json
+v3_s00085_q8_kvq8/rotation_plan/ro_N00197_s0.json
+v3_s00085_q8_kvq8/switch/sw_N00950_p00_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00492_t0_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00045_t0_s0.json
+v3_s00085_q8_kvq8/switch/sw_N00590_p05_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00220_t0_s0.json
+v3_s00085_q8_kvq8/rotation_plan/ro_N01036_s0.json
+v3_s00085_q8_kvq8/switch/sw_N01041_p09_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00794_t0_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00890_t0_s0.json
+v3_s00085_q8_kvq8/switch/sw_N00054_p07_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00389_t0_s0.json
+v3_s00085_q8_kvq8/rotation_plan/ro_N00819_s0.json
+v3_s00085_q8_kvq8/switch/sw_N01191_p03_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00768_t0_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00143_t0_s0.json
+v3_s00085_q8_kvq8/switch/sw_N00679_p15_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00852_t0_s0.json
+v3_s00085_q8_kvq8/rotation_plan/ro_N01191_s0.json
+v3_s00085_q8_kvq8/switch/sw_N00131_p17_s0.json
+v3_s00085_q8_kvq8/fault_response/fa_F00321_t0_s0.json
+# 11-12 19:45–19:48 与 20:21 起 NZDT prec_q4 争用：Q4_K_M 正常首轮解码约 145 tok/s，这几条 78–99，低到 21–28；20:36 nvidia-smi 98% 利用率但功耗 28 W（作者 20:36 在用电脑发消息）
+v3_s00085_q4km_kvq8/switch/sw_N01118_p04_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00798_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00830_t0_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00023_p01_s0.json
+# 11-12 20:35–21:08 NZDT prec_q4 争用续：解码约 22–35 tok/s（正常约 145），nvidia-smi 利用率近 100%、功耗约 44 W、P0 + 显存频率 12001（正常评测是 P2 + 11001、约 113 W）；21:10 起恢复
+v3_s00085_q4km_kvq8/fault_response/fa_F00946_t0_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N00886_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00834_p08_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00378_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00811_t0_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00543_p18_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00525_t0_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N00272_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00342_p02_s0.json
+# 11-13 00:20 NZDT 决定：prec_q4 19:45–22:47 断续争用覆盖几乎整个阶段（之后仍有首轮 26–33 tok/s 的记录），整档 60 条全部重跑，保证 Q4_K_M 时延在同一干净时段测得
+v3_s00085_q4km_kvq8/fault_response/fa_F00045_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00098_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00143_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00220_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00256_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00260_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00267_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00321_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00335_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00349_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00352_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00389_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00463_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00492_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00768_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00794_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00852_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00855_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00890_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00926_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F00958_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F01078_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F01158_t0_s0.json
+v3_s00085_q4km_kvq8/fault_response/fa_F01170_t0_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N00197_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N00203_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N00808_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N00819_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N00850_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N00863_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N01036_s0.json
+v3_s00085_q4km_kvq8/rotation_plan/ro_N01191_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00054_p07_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00063_p12_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00131_p17_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00326_p16_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00374_p14_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00401_p11_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00590_p05_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00609_p13_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00679_p15_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00688_p10_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00819_p06_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00950_p00_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N00976_p19_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N01041_p09_s0.json
+v3_s00085_q4km_kvq8/switch/sw_N01191_p03_s0.json
+# 11-13 00:17–00:21 NZDT 补跑第一条仍受争用：首轮解码 18 tok/s（正常约 108），chain 启动时独显被别的程序占 98%；chain 结束后再补跑一次（隔离文件名加 .rerun1）
+RERUN2 v3_s00085_q8_repro/rotation_plan/ro_N01145_s1.json

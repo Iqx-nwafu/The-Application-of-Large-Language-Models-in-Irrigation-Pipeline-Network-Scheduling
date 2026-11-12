@@ -1,0 +1,586 @@
+{
+ "seed": 20261103,
+ "note": "val 分层子集，选 checkpoint 用",
+ "jobs": [
+  {
+   "job_id": "ro_N00863_s0",
+   "task": "rotation_plan",
+   "scenario": "N00863",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00850_s0",
+   "task": "rotation_plan",
+   "scenario": "N00850",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00886_s0",
+   "task": "rotation_plan",
+   "scenario": "N00886",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00272_s0",
+   "task": "rotation_plan",
+   "scenario": "N00272",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00808_s0",
+   "task": "rotation_plan",
+   "scenario": "N00808",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00197_s0",
+   "task": "rotation_plan",
+   "scenario": "N00197",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N01036_s0",
+   "task": "rotation_plan",
+   "scenario": "N01036",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00819_s0",
+   "task": "rotation_plan",
+   "scenario": "N00819",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N01191_s0",
+   "task": "rotation_plan",
+   "scenario": "N01191",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "ro_N00203_s0",
+   "task": "rotation_plan",
+   "scenario": "N00203",
+   "variant": {},
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N01118_p04_s0",
+   "task": "switch",
+   "scenario": "N01118",
+   "variant": {
+    "pair": 4
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00976_p19_s0",
+   "task": "switch",
+   "scenario": "N00976",
+   "variant": {
+    "pair": 19
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00819_p06_s0",
+   "task": "switch",
+   "scenario": "N00819",
+   "variant": {
+    "pair": 6
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00374_p14_s0",
+   "task": "switch",
+   "scenario": "N00374",
+   "variant": {
+    "pair": 14
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00023_p01_s0",
+   "task": "switch",
+   "scenario": "N00023",
+   "variant": {
+    "pair": 1
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00834_p08_s0",
+   "task": "switch",
+   "scenario": "N00834",
+   "variant": {
+    "pair": 8
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00543_p18_s0",
+   "task": "switch",
+   "scenario": "N00543",
+   "variant": {
+    "pair": 18
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00342_p02_s0",
+   "task": "switch",
+   "scenario": "N00342",
+   "variant": {
+    "pair": 2
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00688_p10_s0",
+   "task": "switch",
+   "scenario": "N00688",
+   "variant": {
+    "pair": 10
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00609_p13_s0",
+   "task": "switch",
+   "scenario": "N00609",
+   "variant": {
+    "pair": 13
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00401_p11_s0",
+   "task": "switch",
+   "scenario": "N00401",
+   "variant": {
+    "pair": 11
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00950_p00_s0",
+   "task": "switch",
+   "scenario": "N00950",
+   "variant": {
+    "pair": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00590_p05_s0",
+   "task": "switch",
+   "scenario": "N00590",
+   "variant": {
+    "pair": 5
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N01041_p09_s0",
+   "task": "switch",
+   "scenario": "N01041",
+   "variant": {
+    "pair": 9
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00054_p07_s0",
+   "task": "switch",
+   "scenario": "N00054",
+   "variant": {
+    "pair": 7
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N01191_p03_s0",
+   "task": "switch",
+   "scenario": "N01191",
+   "variant": {
+    "pair": 3
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00679_p15_s0",
+   "task": "switch",
+   "scenario": "N00679",
+   "variant": {
+    "pair": 15
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00131_p17_s0",
+   "task": "switch",
+   "scenario": "N00131",
+   "variant": {
+    "pair": 17
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00063_p12_s0",
+   "task": "switch",
+   "scenario": "N00063",
+   "variant": {
+    "pair": 12
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "sw_N00326_p16_s0",
+   "task": "switch",
+   "scenario": "N00326",
+   "variant": {
+    "pair": 16
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00958_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00958",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00798_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00798",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00335_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00335",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00926_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00926",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00349_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00349",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00256_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00256",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00830_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00830",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00946_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00946",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00378_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00378",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00811_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00811",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00525_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00525",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00260_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00260",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00352_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00352",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00855_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00855",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00098_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00098",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F01078_t0_s0",
+   "task": "fault_response",
+   "scenario": "F01078",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F01170_t0_s0",
+   "task": "fault_response",
+   "scenario": "F01170",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00492_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00492",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00045_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00045",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00220_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00220",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00794_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00794",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00890_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00890",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00389_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00389",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00768_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00768",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00143_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00143",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00852_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00852",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00321_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00321",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F01158_t0_s0",
+   "task": "fault_response",
+   "scenario": "F01158",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00267_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00267",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  },
+  {
+   "job_id": "fa_F00463_t0_s0",
+   "task": "fault_response",
+   "scenario": "F00463",
+   "variant": {
+    "t": 0
+   },
+   "sample": 0,
+   "seed": 20261103
+  }
+ ]
+}

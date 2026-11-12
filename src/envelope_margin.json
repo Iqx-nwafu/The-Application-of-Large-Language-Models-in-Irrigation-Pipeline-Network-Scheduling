@@ -1,0 +1,61 @@
+{
+ "n": 1200,
+ "plans": [
+  "基线轮灌表",
+  "NSGA-II 稳态最优"
+ ],
+ "pvc": {
+  "margin_m": 0.0,
+  "worst_underestimate_m": -8.41,
+  "cal": {
+   "n": 626,
+   "n_true_violation": 7,
+   "miss": 0,
+   "miss_rate": 0.0,
+   "false_alarm": 0.2294
+  },
+  "test": {
+   "n": 574,
+   "n_true_violation": 9,
+   "miss": 0,
+   "miss_rate": 0.0,
+   "false_alarm": 0.2602
+  },
+  "test_margin0": {
+   "n": 574,
+   "n_true_violation": 9,
+   "miss": 0,
+   "miss_rate": 0.0,
+   "false_alarm": 0.2602
+  },
+  "true_violation_plan0": 16,
+  "true_violation_plan1": 0
+ },
+ "pe": {
+  "margin_m": 6.0,
+  "worst_underestimate_m": -18.71,
+  "cal": {
+   "n": 626,
+   "n_true_violation": 242,
+   "miss": 0,
+   "miss_rate": 0.0,
+   "false_alarm": 0.9583
+  },
+  "test": {
+   "n": 574,
+   "n_true_violation": 266,
+   "miss": 0,
+   "miss_rate": 0.0,
+   "false_alarm": 0.9481
+  },
+  "test_margin0": {
+   "n": 574,
+   "n_true_violation": 266,
+   "miss": 224,
+   "miss_rate": 0.8421,
+   "false_alarm": 0.2987
+  },
+  "true_violation_plan0": 14,
+  "true_violation_plan1": 494
+ }
+}

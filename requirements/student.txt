@@ -1,0 +1,11 @@
+# student training, export and evaluation (Python 3.11, CUDA 12.8); inference uses llama.cpp build b12032
+torch==2.11.0
+transformers==5.22.1
+peft==0.21.2
+accelerate==1.15.0
+safetensors==0.8.0
+tokenizers==0.23.3
+numpy
+pandas
+openai>=3.39
+# plus everything in sim.txt (the evaluation runs the simulator and NSGA-II)
