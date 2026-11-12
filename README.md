@@ -22,7 +22,7 @@ src/                      simulation, benchmark, workflow and evaluation (run sc
   benchmark71.inp         EPANET model of the 71-node, 57.3 ha self-pressurized drip system (Table 1)
   network.py              network parameters and topology -> benchmark71.inp; current rotation table (30 groups x 4 h)
   hydraulics.py           vectorised steady-state solver for the tree network (emitter outflow, automatic throttling)
-  moc.py                  vectorised MOC transient solver used in all experiments
+  moc.py                  vectorised MOC transient solver written for this study, used in all experiments
   steady.py, transient.py, validate_moc.py
                           checks against EPANET/WNTR, the Joukowsky solution and TSNet (outputs in src/validation/)
   evaluate.py, scoring.py objectives, constraints (Eq. 9-11) and the entropy-weight TOPSIS closeness C* (Eq. 12-13)
@@ -95,7 +95,7 @@ python runbatch.py --config batches_hard.json hard_base hard_ds   # hard-transie
 
 Distillation (from `src/`; the lean tool set without `screen_transient`, the isolation-water-hammer convention for faults
 and at most 20 tool calls per round are the defaults of `distill_gen.py`). Switching and rotation-planning jobs ran on
-DeepSeek-V4-Flash first and the jobs without a usable trajectory were redone on V4-Pro; fault jobs ran on V4-Pro directly
+DeepSeek-V4-Flash first and the jobs whose trajectory failed filter rules R1-R8 (Table S3) were redone on V4-Pro; fault jobs ran on V4-Pro directly
 (in a 40-scenario pilot only 2 of 40 Flash fault trajectories passed the filter). `data/distill_index_teacher.jsonl.gz` lists all
 6,586 generated trajectories with model, filter verdict, tokens and cost.
 
