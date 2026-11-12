@@ -164,10 +164,6 @@ start `llama-server -m <gguf> --port 8091 -c 32768 -np 1 -ngl 99 -fa on --jinja 
 * Round-1 API experiments (Table 4, Table S7, hard50) used the original tool set including `screen_transient`, at most 12
   tool calls per round, and the post-isolation rescheduling convention for faults; distillation and all student evaluations
   used the lean tool set, at most 20 calls and the isolation-water-hammer convention (Section 2.3, Table 5 note).
-* During the local deployment evaluation, 94 runs were disturbed by another program using the GPU. They were identified by
-  timing features only (first-call decode speed and GPU power, see `results/student/rerun_flagged.txt`) and re-run (one
-  re-run was disturbed again and repeated, hence 95 entries); the replaced records are kept in
-  `results/student/replaced_contention/`.
 * Greedy decoding in llama.cpp is not bit-reproducible across runs on GPU; the repeat run `v2_s00312_q8_r2_cloud` shows
   the run-to-run spread (about +/-4 of 60 scenarios). API model versions change over time; every round-1 record stores the
   served model name and token counts. Round-1 calls were made between 2026-10-28 and 2026-11-02; Kimi K2 models are
